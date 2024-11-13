@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="../Css/Styles.css" />
+    <title>Login</title>
+</head>
+<body>
+
+    
+    <div id ="data">
+    <form  onsubmit="return validateForm()">
+        <h1>Login</h1>
+        <label>Username</label>
+        <input id="username" type="text" placeholder="Type your username" >
+        <p id="err-msg"></p>
+        <label>Password</label>
+        <input id="password" type="password"  placeholder="Type your password" >
+        <p id="err-msg2"></p>
+        <div id="checkbox"><input type="checkbox" onclick="myFunction()">Show Password</div>
+        <button type="submit"><b>Login</b></button>
+    </form>
+    </div>
+    <script src="../Javascript/login.js">
+
+    </script>
+</body>
+</html>
